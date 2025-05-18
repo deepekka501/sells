@@ -124,7 +124,7 @@ class _AddProductPageState extends State<AddProductPage> {
               DropdownButtonFormField<String>(
                 value: _selectedCategory,
                 decoration: const InputDecoration(
-                  labelText: 'Category',
+                  labelText: 'Categories',
                   border: OutlineInputBorder(),
                 ),
                 items: _categories
